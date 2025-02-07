@@ -1,0 +1,5 @@
+vector<-c(1,2,3,4,5,6)
+max_value<-max(vector)
+min_value<-min(vector)
+print(max_value)
+print(min_value)
