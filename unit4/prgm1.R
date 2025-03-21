@@ -1,0 +1,7 @@
+data(mtcars)
+mean_mpg<-mean(mtcars$mpg)
+meadian_mpg<-median(mtcars$mpg)
+mode_mpg<-as.numeric(names(sort(table(mtcars$mpg),decreasing=TRUE)[1]))
+cat(mean_mpg,"\n")
+cat(meadian_mpg,"\n")
+cat(mode_mpg)
